@@ -87,5 +87,5 @@ async def ebay_search(
     }
 
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     mcp.run(transport="streamable-http")
